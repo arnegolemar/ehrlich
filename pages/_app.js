@@ -5,6 +5,7 @@ import { SessionProvider } from "next-auth/react";
 import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
+  console.dir(Component);
   return (
     <SessionProvider session={session}>
 
