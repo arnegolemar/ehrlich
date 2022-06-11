@@ -1,0 +1,15 @@
+.notFound {
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.notFound button {
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: #0078ab9d;
+    background-color: transparent;
+    color: #0078ab9d;
+    cursor: pointer;
+}

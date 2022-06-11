@@ -1,0 +1,23 @@
+.login {
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.login p {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.login button {
+    margin-top: 30px;
+    padding: 7px 25px;
+    font-size: 17px;
+    border: 2px solid black;
+    background-color: transparent;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+}
