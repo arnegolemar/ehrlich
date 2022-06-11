@@ -1,0 +1,55 @@
+.weatherUpdate {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.weatherUpdateWrapper {
+    text-align: end;
+}
+
+.weatherUpdate table {
+    margin-bottom: 50px;
+    border-spacing: inherit;
+    border: 1px solid black;
+}
+
+.weatherUpdate table tr {
+    border: none;
+}
+
+.weatherUpdate table th, .weatherUpdate table td {
+    border-left: 1px solid black;
+    padding: 7px 10px;
+}
+
+.weatherUpdate table th {
+    text-align: left;
+}
+
+.weatherUpdate table tr {
+    text-align: left;
+}
+
+.mainTh {
+    background-color: rgba(128, 128, 128, 0.256);
+}
+
+.subTh {
+    background-color: rgba(128, 128, 128, 0.105);
+}
+
+@media (max-width: 550px) {
+    .notImp {
+        display: none;
+    }
+
+    .weatherUpdate table {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .weatherUpdateWrapper {
+        width: 90%;
+    }
+}
