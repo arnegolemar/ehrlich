@@ -1,6 +1,6 @@
-import Header from "../Header/index";
+import Header from "../Header";
 
-const NonAuth = ({ children }) => {
+const Layout = ({ children }) => {
     return (
         <div>
             <Header />
@@ -10,4 +10,4 @@ const NonAuth = ({ children }) => {
     )
 }
 
-export default NonAuth;
+export default Layout;

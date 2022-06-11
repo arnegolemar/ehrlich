@@ -9,3 +9,10 @@
     -webkit-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
 }
+
+@media (max-width: 550px) {
+    .button {
+        font-size: 15px;
+        padding: 5px 18px;
+    }
+}

@@ -1,13 +1,17 @@
 
-import '../styles/globals.css'
+import '../styles/globals.css';
+import { SessionProvider } from "next-auth/react";
 
-import NonAuth from '../components/Layouts/NonAuth';
+import Layout from '../components/Layout';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   return (
-    <NonAuth>
-      <Component {...pageProps} />
-    </NonAuth>
+    <SessionProvider session={session}>
+
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </SessionProvider>
   )
 }
 

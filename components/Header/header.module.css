@@ -10,3 +10,18 @@
     font-weight: bold;
     margin-left: 15px;
 }
+
+.button {
+    margin-top: 0 !important;
+    margin-right: 30px;
+    position: absolute;
+    right: 0;
+}
+
+
+
+@media (max-width: 550px) {
+    .name {
+        display: none;
+    }
+}
